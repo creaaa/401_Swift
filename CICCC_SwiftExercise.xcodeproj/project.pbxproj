@@ -14,6 +14,7 @@
 		44D78AAF1EC1891500B31069 /* Ex4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D78AAE1EC1891500B31069 /* Ex4.swift */; };
 		44D78AB11EC194E000B31069 /* Ex5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D78AB01EC194E000B31069 /* Ex5.swift */; };
 		44D78AB31EC1978D00B31069 /* Ex6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D78AB21EC1978D00B31069 /* Ex6.swift */; };
+		44D78AD31EC1A5A900B31069 /* Ex7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D78AD21EC1A5A900B31069 /* Ex7.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		44D78AAE1EC1891500B31069 /* Ex4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ex4.swift; sourceTree = "<group>"; };
 		44D78AB01EC194E000B31069 /* Ex5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ex5.swift; sourceTree = "<group>"; };
 		44D78AB21EC1978D00B31069 /* Ex6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ex6.swift; sourceTree = "<group>"; };
+		44D78AD21EC1A5A900B31069 /* Ex7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ex7.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				44D78AAE1EC1891500B31069 /* Ex4.swift */,
 				44D78AB01EC194E000B31069 /* Ex5.swift */,
 				44D78AB21EC1978D00B31069 /* Ex6.swift */,
+				44D78AD21EC1A5A900B31069 /* Ex7.swift */,
 				44D78AA11EC122FA00B31069 /* main.swift */,
 			);
 			path = CICCC_SwiftExercise;
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44D78AD31EC1A5A900B31069 /* Ex7.swift in Sources */,
 				44D78AAD1EC150A900B31069 /* Ex3.swift in Sources */,
 				44D78AA91EC1232000B31069 /* Ex1.swift in Sources */,
 				44D78AB11EC194E000B31069 /* Ex5.swift in Sources */,
