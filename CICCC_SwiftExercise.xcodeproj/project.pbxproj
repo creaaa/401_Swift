@@ -15,6 +15,7 @@
 		44D78AB11EC194E000B31069 /* Ex5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D78AB01EC194E000B31069 /* Ex5.swift */; };
 		44D78AB31EC1978D00B31069 /* Ex6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D78AB21EC1978D00B31069 /* Ex6.swift */; };
 		44D78AD31EC1A5A900B31069 /* Ex7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D78AD21EC1A5A900B31069 /* Ex7.swift */; };
+		44D78AD51EC233D900B31069 /* Ex8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D78AD41EC233D900B31069 /* Ex8.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		44D78AB01EC194E000B31069 /* Ex5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ex5.swift; sourceTree = "<group>"; };
 		44D78AB21EC1978D00B31069 /* Ex6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ex6.swift; sourceTree = "<group>"; };
 		44D78AD21EC1A5A900B31069 /* Ex7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ex7.swift; sourceTree = "<group>"; };
+		44D78AD41EC233D900B31069 /* Ex8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ex8.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				44D78AB01EC194E000B31069 /* Ex5.swift */,
 				44D78AB21EC1978D00B31069 /* Ex6.swift */,
 				44D78AD21EC1A5A900B31069 /* Ex7.swift */,
+				44D78AD41EC233D900B31069 /* Ex8.swift */,
 				44D78AA11EC122FA00B31069 /* main.swift */,
 			);
 			path = CICCC_SwiftExercise;
@@ -147,6 +150,7 @@
 				44D78AA91EC1232000B31069 /* Ex1.swift in Sources */,
 				44D78AB11EC194E000B31069 /* Ex5.swift in Sources */,
 				44D78AA21EC122FA00B31069 /* main.swift in Sources */,
+				44D78AD51EC233D900B31069 /* Ex8.swift in Sources */,
 				44D78AB31EC1978D00B31069 /* Ex6.swift in Sources */,
 				44D78AAB1EC137BE00B31069 /* Ex2.swift in Sources */,
 				44D78AAF1EC1891500B31069 /* Ex4.swift in Sources */,

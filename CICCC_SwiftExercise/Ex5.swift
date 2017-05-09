@@ -1,4 +1,6 @@
 
+import Foundation
+
 func execute5() {
     
     // 1
@@ -49,26 +51,20 @@ func execute5() {
      let c = bologna[lastCharacterIdx] // Character
      let d = String(c)                 // String
      
+     ・ String　⇛ Character
      
-     
+     let e = "h"                       // String
+     let f = Character(c)              // Character
      
     */
-    
-    
-    
     
     
     // 2
     
     func combineLastCharacters(strAry: [String]) -> String {
         
-        return strAry.map{ str -> String in
-            
-            let lastCharIdx = str.index(before: str.endIndex)
-
-            return String(str[lastCharIdx])
-            
-        }.joined()
+        return strAry.map{ String($0[$0.index(before: $0.endIndex)]) }.joined()
+        
     }
     
     print("2, ", terminator: "")
@@ -80,9 +76,80 @@ func execute5() {
     
     // 3
     
+    let hoge = NSCharacterSet(charactersIn: "8")
     
-
+    print("ここ！", hoge.longCharacterIsMember(1))
     
     
+    
+    
+    
+    
+    func canConvertStringToInt(str: String) -> Bool {
+        
+        let hoge = NSCharacterSet(charactersIn: "hoge")
+        
+        print("ここ！", hoge.longCharacterIsMember(8))
+        
+        
+        
+        let charSet = NSCharacterSet.decimalDigits
+        
+//          for char in str.unicodeScalars {
+//                if charSet.longCharacterIsMember(char.value) != true {
+//                    return false
+//                }
+//          }
+        
+         return true
+    }
+    
+    // longCharacterIsMember(_:) CharacterSetのインスタンスメソッド
+    
+    let digits = CharacterSet.decimalDigits
+    
+    
+    // 4
+    
+    func sanitizeDirtyWordsArray(dirtyWordsArray ary: [String]) -> [String] {
+        
+        return ary.filter{ $0.characters.count != 4 }
+        
+    }
+    
+    
+    let dirtyWordsArray = ["phooey", "darn", "drat", "blurgh", "jupiters", "argh", "fudge"]
+    
+    print("4 → ", sanitizeDirtyWordsArray(dirtyWordsArray: dirtyWordsArray))
+    
+    
+    // 5
+    
+    let movies = ["Boyhood":         "Richard Linklater",
+                  "Inception":       "Christopher Nolan",
+                  "The Hurt Locker": "Kathryn Bigelow",
+                  "Selma":           "Ava Du Vernay",
+                  "Interstellar":    "Christopher Nolan"]
+    
+    
+    class MovieArchive {
+        
+        func filterByDirector(movieDic: [String:String], director: String) -> [String] {
+            
+            return movieDic.filter{ $0.value == director }.map{ $0.key }
+            
+        }
+    }
+    
+    
+    let myMovieArchive = MovieArchive()
+    
+    print("5 → ", myMovieArchive.filterByDirector(movieDic: movies, director: "Christopher Nolan"))
     
 }
+
+
+
+
+
+
