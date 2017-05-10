@@ -85,6 +85,8 @@ func execute2() {
     var cancelButton: UIBarButtonItem!
     cancelButton = UIBarButtonItem()
     
+    cancelButton.width = 200
+     
     anotherViewController.navigationItem.leftBarButtonItem = cancelButton
     */
     

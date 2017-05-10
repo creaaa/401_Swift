@@ -1,13 +1,25 @@
 
 func execute3() {
     
-    
     // ex.1 
     
-    struct CuddlyCreature {}
+    class CuddlyCreature: CustomStringConvertible {
+        
+        var name: String
+        
+        var description: String {
+            return self.name
+        }
+        
+        init(name: String) {
+            self.name = name
+        }
+        
+    }
     
     let ary1    = [CuddlyCreature]()
     let boolAry = [true, false, false, true, false]
+
     
     // ex.2
     
@@ -100,17 +112,19 @@ func execute3() {
     
     // ex.13
     
-    var studioAlbums = ["Led Zeppelin":1969, "Led Zeppelin II": 1969, "Led Zeppelin III": 1970, "Led Zeppelin IV": 1971, "Houses of the Holy":1973, "Physical Graffiti": 1975, "Presence":1976, "In Through the Out Door":1979, "Coda":1982]
+    let studioAlbums = ["Led Zeppelin":1969,
+                        "Led Zeppelin II": 1969,
+                        "Led Zeppelin III": 1970,
+                        "Led Zeppelin IV": 1971,
+                        "Houses of the Holy":1973,
+                        "Physical Graffiti": 1975,
+                        "Presence":1976,
+                        "In Through the Out Door":1979,
+                        "Coda":1982]
     
     print("Ex.13", studioAlbums.count)
+    
 }
-
-
-
-
-
-
-
 
 
 
