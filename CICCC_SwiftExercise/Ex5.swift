@@ -76,14 +76,13 @@ func execute5() {
     
     // 3
     
+    print("Sorry, I couldn't solve...")
+    
+    
+    /*
     let hoge = NSCharacterSet(charactersIn: "8")
     
     print("ここ！", hoge.longCharacterIsMember(1))
-    
-    
-    
-    
-    
     
     func canConvertStringToInt(str: String) -> Bool {
         
@@ -107,6 +106,9 @@ func execute5() {
     // longCharacterIsMember(_:) CharacterSetのインスタンスメソッド
     
     let digits = CharacterSet.decimalDigits
+    */
+    
+    
     
     
     // 4
