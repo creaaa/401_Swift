@@ -1,2 +1,4 @@
 
-execute9()
+let launcher = DeeperMap()
+
+launcher.execute()

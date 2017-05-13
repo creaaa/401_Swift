@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44461D6D1EC66B9800A36FB9 /* AnotherMapFlatmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44461D6C1EC66B9800A36FB9 /* AnotherMapFlatmap.swift */; };
+		449446291EC53B28007B54B2 /* MapFlatMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449446281EC53B28007B54B2 /* MapFlatMap.swift */; };
+		4494462C1EC53B79007B54B2 /* MyAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4494462B1EC53B79007B54B2 /* MyAlgorithm.swift */; };
+		44CB94411EC7831D003BA1AC /* DeeperMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CB94401EC7831D003BA1AC /* DeeperMap.swift */; };
 		44D78AA21EC122FA00B31069 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D78AA11EC122FA00B31069 /* main.swift */; };
 		44D78AA91EC1232000B31069 /* Ex1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D78AA81EC1232000B31069 /* Ex1.swift */; };
 		44D78AAB1EC137BE00B31069 /* Ex2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D78AAA1EC137BE00B31069 /* Ex2.swift */; };
@@ -32,6 +36,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		44461D6C1EC66B9800A36FB9 /* AnotherMapFlatmap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnotherMapFlatmap.swift; sourceTree = "<group>"; };
+		449446281EC53B28007B54B2 /* MapFlatMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapFlatMap.swift; sourceTree = "<group>"; };
+		4494462B1EC53B79007B54B2 /* MyAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAlgorithm.swift; sourceTree = "<group>"; };
+		44CB94401EC7831D003BA1AC /* DeeperMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeeperMap.swift; sourceTree = "<group>"; };
 		44D78A9E1EC122FA00B31069 /* CICCC_SwiftExercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CICCC_SwiftExercise; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D78AA11EC122FA00B31069 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		44D78AA81EC1232000B31069 /* Ex1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ex1.swift; sourceTree = "<group>"; };
@@ -56,6 +64,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		449446261EC53B06007B54B2 /* Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				44D78AA81EC1232000B31069 /* Ex1.swift */,
+				44D78AAA1EC137BE00B31069 /* Ex2.swift */,
+				44D78AAC1EC150A900B31069 /* Ex3.swift */,
+				44D78AAE1EC1891500B31069 /* Ex4.swift */,
+				44D78AB01EC194E000B31069 /* Ex5.swift */,
+				44D78AB21EC1978D00B31069 /* Ex6.swift */,
+				44D78AD21EC1A5A900B31069 /* Ex7.swift */,
+				44D78AD41EC233D900B31069 /* Ex8.swift */,
+				44D78AD61EC2490100B31069 /* Ex9.swift */,
+			);
+			name = Exercise;
+			sourceTree = "<group>";
+		};
+		449446271EC53B10007B54B2 /* Snippet */ = {
+			isa = PBXGroup;
+			children = (
+				44461D6C1EC66B9800A36FB9 /* AnotherMapFlatmap.swift */,
+				449446281EC53B28007B54B2 /* MapFlatMap.swift */,
+				44CB94401EC7831D003BA1AC /* DeeperMap.swift */,
+			);
+			name = Snippet;
+			sourceTree = "<group>";
+		};
+		4494462A1EC53B6C007B54B2 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				4494462B1EC53B79007B54B2 /* MyAlgorithm.swift */,
+			);
+			name = Algorithm;
+			sourceTree = "<group>";
+		};
 		44D78A951EC122FA00B31069 = {
 			isa = PBXGroup;
 			children = (
@@ -75,15 +117,9 @@
 		44D78AA01EC122FA00B31069 /* CICCC_SwiftExercise */ = {
 			isa = PBXGroup;
 			children = (
-				44D78AA81EC1232000B31069 /* Ex1.swift */,
-				44D78AAA1EC137BE00B31069 /* Ex2.swift */,
-				44D78AAC1EC150A900B31069 /* Ex3.swift */,
-				44D78AAE1EC1891500B31069 /* Ex4.swift */,
-				44D78AB01EC194E000B31069 /* Ex5.swift */,
-				44D78AB21EC1978D00B31069 /* Ex6.swift */,
-				44D78AD21EC1A5A900B31069 /* Ex7.swift */,
-				44D78AD41EC233D900B31069 /* Ex8.swift */,
-				44D78AD61EC2490100B31069 /* Ex9.swift */,
+				4494462A1EC53B6C007B54B2 /* Algorithm */,
+				449446271EC53B10007B54B2 /* Snippet */,
+				449446261EC53B06007B54B2 /* Exercise */,
 				44D78AA11EC122FA00B31069 /* main.swift */,
 			);
 			path = CICCC_SwiftExercise;
@@ -149,15 +185,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				44D78AD31EC1A5A900B31069 /* Ex7.swift in Sources */,
+				4494462C1EC53B79007B54B2 /* MyAlgorithm.swift in Sources */,
 				44D78AAD1EC150A900B31069 /* Ex3.swift in Sources */,
 				44D78AA91EC1232000B31069 /* Ex1.swift in Sources */,
 				44D78AB11EC194E000B31069 /* Ex5.swift in Sources */,
+				44CB94411EC7831D003BA1AC /* DeeperMap.swift in Sources */,
 				44D78AD71EC2490100B31069 /* Ex9.swift in Sources */,
 				44D78AA21EC122FA00B31069 /* main.swift in Sources */,
 				44D78AD51EC233D900B31069 /* Ex8.swift in Sources */,
 				44D78AB31EC1978D00B31069 /* Ex6.swift in Sources */,
 				44D78AAB1EC137BE00B31069 /* Ex2.swift in Sources */,
+				449446291EC53B28007B54B2 /* MapFlatMap.swift in Sources */,
 				44D78AAF1EC1891500B31069 /* Ex4.swift in Sources */,
+				44461D6D1EC66B9800A36FB9 /* AnotherMapFlatmap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

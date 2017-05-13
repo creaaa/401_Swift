@@ -167,7 +167,7 @@ func execute6() {
         
         var worthyOfAnOffer: Bool {
             
-            if 3 ~= location.rawValue {
+            if location.rawValue ~= 3 { 
                 return true
             } else if 1...2 ~= location.rawValue {
                 return numberOfBedrooms >= 3 ? true : false
