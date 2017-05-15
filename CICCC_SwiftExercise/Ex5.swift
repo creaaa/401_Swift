@@ -79,6 +79,25 @@ func execute5() {
     print("Sorry, I couldn't solve...")
     
     
+    let digits: CharacterSet = CharacterSet.decimalDigits
+
+    func digitsOnly(word: String) -> Bool {
+        
+        for char in word.unicodeScalars {
+            if !(digits.contains(UnicodeScalar(char.value)!)) {  // digit contains "7", // digit contains "3"...
+                return false
+            }
+        }
+        
+        return true
+    }
+    
+    print("どっちだ！？", digitsOnly(word: "73f6"))
+    
+    
+    
+    
+    
     /*
     let hoge = NSCharacterSet(charactersIn: "8")
     
