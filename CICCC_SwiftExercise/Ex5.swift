@@ -103,9 +103,6 @@ func execute5() {
     print("3 → ", digitsOnly(word: "7361"))
     
     
-    
-    
-    
     /*
     let hoge = NSCharacterSet(charactersIn: "8")
     
@@ -134,8 +131,6 @@ func execute5() {
     
     let digits = CharacterSet.decimalDigits
     */
-    
-    
     
     
     // 4
