@@ -76,13 +76,11 @@ func execute5() {
     
     // 3
     
-    print("Sorry, I couldn't solve...")
-    
-    
     let digits: CharacterSet = CharacterSet.decimalDigits
 
     func digitsOnly(word: String) -> Bool {
         
+        /*
         for char in word.unicodeScalars {
             if !(digits.contains(UnicodeScalar(char.value)!)) {  // digit contains "7", // digit contains "3"...
                 return false
@@ -90,9 +88,19 @@ func execute5() {
         }
         
         return true
+        */
+        
+        
+        let resultBoolAry = word.unicodeScalars.map{ digits.contains(UnicodeScalar($0.value)!) }
+        
+        // fold each char's result and leads to final result
+        let reducedResult = resultBoolAry.reduce(true){ $0 && $1 }
+        
+        return reducedResult
+       
     }
     
-    print("どっちだ！？", digitsOnly(word: "73f6"))
+    print("3 → ", digitsOnly(word: "7361"))
     
     
     

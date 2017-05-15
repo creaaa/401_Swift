@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CICCC_SwiftExercise/Ex5.swift"
-            timestampString = "516578027.013927"
+            timestampString = "516579401.98684"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
             landmarkName = "digitsOnly(word:)"
             landmarkType = "9">
          </BreakpointContent>
